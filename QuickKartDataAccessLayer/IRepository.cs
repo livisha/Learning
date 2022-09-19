@@ -12,5 +12,6 @@ namespace QuickKartDataAccessLayer
         public bool UpdateCategory(Categories category);
         public bool DeleteCategory(byte categID);
         public bool AddCategory(string categoryName);
+        public byte GenerateNewCategoryId();
     }
 }
