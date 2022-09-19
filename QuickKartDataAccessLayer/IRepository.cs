@@ -8,5 +8,9 @@ namespace QuickKartDataAccessLayer
     public interface IRepository
     {
         public List<Categories> GetAllCategories();
+        public bool AddCategory(Categories category);
+        public bool UpdateCategory(Categories category);
+        public bool DeleteCategory(byte categID);
+        public bool AddCategory(string categoryName);
     }
 }

@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickKartServices", "QuickK
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QwickKartMVC", "QwickKartMVC\QwickKartMVC.csproj", "{51E0C77B-C283-44B6-B40B-CDE2B5C84C96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickartBL", "QuickartBL\QuickartBL.csproj", "{F6546420-75ED-494B-B124-D2881DF71C3A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{51E0C77B-C283-44B6-B40B-CDE2B5C84C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51E0C77B-C283-44B6-B40B-CDE2B5C84C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51E0C77B-C283-44B6-B40B-CDE2B5C84C96}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6546420-75ED-494B-B124-D2881DF71C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6546420-75ED-494B-B124-D2881DF71C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6546420-75ED-494B-B124-D2881DF71C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6546420-75ED-494B-B124-D2881DF71C3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

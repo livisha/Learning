@@ -14,12 +14,11 @@ namespace QuickKartServices.Controllers
     [ApiController]
     public class CategoryController : Controller
     {
-    
-        QuickKartRepository repository;
+        readonly IRepository repository;
 
-        public CategoryController()
+        public CategoryController(IRepository repo)
         {
-            repository = new QuickKartRepository();
+            repository = repo;
         }
         public JsonResult GetAllCategories()
         {
@@ -45,7 +44,7 @@ namespace QuickKartServices.Controllers
                 result = repository.AddCategory(category.CategoryName);
                 if (result)
                 {
-                    message = "Successfully Added Category";
+                    message = "Successfully Added Category = ";
                 }
                 else
                 {
@@ -93,6 +92,6 @@ namespace QuickKartServices.Controllers
             }
             return Json(message);
         } 
-       //add new method
+       
     }
 }

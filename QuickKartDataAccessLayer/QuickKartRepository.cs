@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using System.Data.SqlClient;
-using Microsoft.Extensions.Configuration;
-using System.IO;
 using System.Data;
 using QuickKartDataAccessLayer.Models;
 
@@ -246,7 +241,7 @@ namespace QuickKartDataAccessLayer
                 context.SaveChanges();
                 status = true;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 status = false;
             }
@@ -343,7 +338,7 @@ namespace QuickKartDataAccessLayer
                 context.SaveChanges();
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return false;
             }
