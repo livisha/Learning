@@ -14,6 +14,7 @@ namespace QuickKartServices.Controllers
     [ApiController]
     public class CategoryController : Controller
     {
+    
         QuickKartRepository repository;
 
         public CategoryController()
@@ -44,7 +45,7 @@ namespace QuickKartServices.Controllers
                 result = repository.AddCategory(category.CategoryName);
                 if (result)
                 {
-                    message = "Successfully Added Category = ";
+                    message = "Successfully Added Category";
                 }
                 else
                 {
@@ -92,6 +93,6 @@ namespace QuickKartServices.Controllers
             }
             return Json(message);
         } 
-       
+       //add new method
     }
 }
