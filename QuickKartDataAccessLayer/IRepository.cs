@@ -7,6 +7,7 @@ namespace QuickKartDataAccessLayer
 {
     public interface IRepository
     {
+        //comment
         public List<Categories> GetAllCategories();
 <<<<<<< Updated upstream
         public bool AddCategory(Categories category);
